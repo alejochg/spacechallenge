@@ -1,6 +1,7 @@
 public class Rocket implements SpaceShip{
-    private int weight;
-    private int weightLimit;
+    int weight;
+    int weightLimit;
+    int cost;
 
     public boolean launch() {
         return true;
